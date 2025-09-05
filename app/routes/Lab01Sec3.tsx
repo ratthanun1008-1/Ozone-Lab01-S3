@@ -24,7 +24,7 @@ export default function MyExamProject(){
     Logo: "/images/DUAD_550.png",
     Category: 1,
     Price: 70,
-    Owner: "Bushiroad",
+    Owner: "Konami",
     Website: "https://www.yugioh-card.com/en/",
     Top10: false
     },
@@ -74,6 +74,9 @@ export default function MyExamProject(){
     <p className="text-gray-600 text-sm mt-2">{tpObj.Category}</p>
     <p className="text-gray-600 text-sm mt-2">{tpObj.Price}</p>
     <p className="text-gray-600 text-sm mt-2">{tpObj.Owner}</p>
+    <p className="text-gray-600 text-sm mt-2">{tpObj.Top10}
+        <h1>{tpObj.Top10? "true" : "false" }</h1>
+    </p>
 
     </div>
     <div className="p-4 mb-auto">

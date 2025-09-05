@@ -17,7 +17,7 @@ export const myExamProject =[
     Logo: "/images/DUAD_550.png",
     Category: 1,
     Price: 70,
-    Owner: "Bushiroad",
+    Owner: "Konami",
     Website: "https://www.yugioh-card.com/en/",
     Top10: false
     },
